@@ -19,12 +19,19 @@ header {
     border-bottom: 1px solid seashell;
     background-color: black;
     width: 100%;
-
+    top: 0;
+    left: 0;
 }
 
 header img {
     height: 50px;
     margin-left: 10px;
+    align-items:center;
+}
+
+nav {
+    float: right;
+    width: 100%;
 }
 
 header li {
@@ -33,6 +40,56 @@ header li {
     color: seashell;
 }
 
+.container {
+    display: flexbox;
+    align-content: center;
+}
+
 .mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
     position: relative;
+    top: 70px;
+    margin: 0;
+    display: flexbox;
+    justify-content: center;
+}
+
+.mission .text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.mission .container {
+    background-color:black;
+}
+
+.month-tea {
+    width: 1000px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    display:flexbox;
+}
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact {
+
+}
+
+.footer {
+    margin-left: 20px;
 }
