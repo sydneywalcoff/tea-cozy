@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    display: inline-flex;
+    display: flex;
     position: fixed;
     height: 69px;
     z-index: 10;
@@ -26,18 +26,23 @@ header {
 header img {
     height: 50px;
     margin-left: 10px;
-    align-items:center;
+    margin-top: 10px;
 }
 
 nav {
-    float: right;
     width: 100%;
+}
+
+ul {
+    float:right;
+    
 }
 
 header li {
     display: inline-flex;
     text-decoration: underline;
     color: seashell;
+    margin-right: 10px;
 }
 
 .container {
@@ -64,12 +69,14 @@ header li {
     justify-content: center;
 }
 
-.mission .container {
-    background-color:black;
+.container {
+    align-items: center;
 }
 
 .month-tea {
     width: 1000px;
+    position: relative;
+    top: 70px;
 }
 
 .tea img {
@@ -83,13 +90,18 @@ header li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    top: 70px;
 
 }
 
 .contact {
-
+    position: relative;
+    top: 70px;
 }
 
 .footer {
+    position: relative;
+    top: 70px;
     margin-left: 20px;
 }
