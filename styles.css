@@ -10,7 +10,7 @@ html {
 body {
     background-color: black;
     opacity: 0.9;
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 header {
@@ -24,6 +24,12 @@ header {
     top: 0;
     left: 0;
 }
+
+.container {
+    align-items: center;
+}
+
+/* header/nav bar */
 
 header img {
     height: 50px;
@@ -47,13 +53,9 @@ header li {
     margin-right: 10px;
 }
 
-.container {
-    display: flexbox;
-    align-content: center;
-}
 
 /* Mission */
-.mission {
+div.mission {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -61,24 +63,23 @@ header li {
     height: 700px;
     position: relative;
     top: 70px;
-    margin: 0;
+    margin: 0 0;
     display: flex;
     width: 100%;
 
 }
 
 .mission .text {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 div.mission-text {
     background-color: black;
     align-items: center;
-    display: flexbox;
+    text-align: center;
     justify-items: center;
     width: 100%;
+    height: auto;
 }
 
 h4.text,
@@ -91,9 +92,6 @@ h4.text {
     align-items: center;
 
 }
-.container {
-    align-items: center;
-}
 
 /* Tea of the Month */
 
@@ -101,20 +99,39 @@ div.month-tea.container {
     width: 1000px;
     position: relative;
     top: 70px;
-    display: flex;
-    flex-flow: column wrap;
     margin: 20px 0;
+    
 }
 
 .tea img {
     height: 200px;
     width: 300px;
-    display:flexbox;
+    display: flex;
+    justify-content: center;
 
 }
 
+.fall,
+.rum,
+.donuts,
+.myrtle {
+    margin: 10px 10px;
+}
+
 .tea {
-    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.tea h4 {
+    margin-top: 10px;
+}
+
+section.tea {
+    width: 100%;
 }
 
 /* Locations */
