@@ -1,3 +1,4 @@
+/* Universal */
 html {
     font-family: Helvetica;
     font-size: 22px;
@@ -51,6 +52,7 @@ header li {
     align-content: center;
 }
 
+/* Mission */
 .mission {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     background-repeat: no-repeat;
@@ -61,6 +63,7 @@ header li {
     top: 70px;
     margin: 0;
     display: flex;
+    width: 100%;
 
 }
 
@@ -75,6 +78,7 @@ div.mission-text {
     align-items: center;
     display: flexbox;
     justify-items: center;
+    width: 100%;
 }
 
 h4.text,
@@ -91,6 +95,7 @@ h4.text {
     align-items: center;
 }
 
+/* Tea of the Month */
 
 div.month-tea.container {
     width: 1000px;
@@ -108,6 +113,8 @@ div.month-tea.container {
 
 }
 
+/* Locations */
+
 .locations {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
     background-repeat: no-repeat;
@@ -118,10 +125,14 @@ div.month-tea.container {
 
 }
 
+/* Contact */
+
 .contact {
     position: relative;
     top: 70px;
 }
+
+/* Footer */
 
 .footer {
     position: relative;
