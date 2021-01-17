@@ -10,7 +10,7 @@ html {
 body {
     background-color: black;
     opacity: 0.9;
-    margin: 0;
+    margin: 0 20px;
 }
 
 header {
@@ -103,7 +103,7 @@ div.month-tea.container {
     top: 70px;
     display: flex;
     flex-flow: column wrap;
-    margin: 0 0;
+    margin: 20px 0;
 }
 
 .tea img {
@@ -113,16 +113,50 @@ div.month-tea.container {
 
 }
 
+.tea {
+    margin: 10px 0;
+}
+
 /* Locations */
 
-.locations {
+
+div.locations {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     top: 70px;
+    height: 500px;
+    text-align: center;
+}
 
+.location.blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    width: 300px;
+    height: auto;
+    background-color: black;
+    margin: 15px 40px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 2;
+}
+
+.locations.h2,
+.locations.blocks {
+    align-content:center;
+}
+
+.locations h2 {
+    margin: 0 auto;
+    padding: 50px 0 0 0;
 }
 
 /* Contact */
@@ -130,6 +164,8 @@ div.month-tea.container {
 .contact {
     position: relative;
     top: 70px;
+    height: 200px;
+    text-align:center;
 }
 
 /* Footer */
